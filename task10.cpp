@@ -1,0 +1,63 @@
+#include<iostream>
+using namespace std;
+
+main(){
+float number_1;
+float number_2;
+float number_3;
+float number_4;
+float number_5;
+float number_6;
+float number_7;
+float number_8;
+float number_9;
+float number_10;
+float number_11;
+float number_12;
+float number_13;
+float number_14;
+float number_15;
+float add;
+float multiply;
+float subtract;
+float total;
+cout<<"Enter number 1:";
+cin>>number_1;
+cout<<"Enter number 2:";
+cin>>number_2;
+cout<<"Enter number 3:";
+cin>>number_3;
+cout<<"Enter number 4:";
+cin>>number_4;
+cout<<"Enter number 5:";
+cin>>number_5;
+cout<<"Enter number 6:";
+cin>>number_6;
+cout<<"Enter number 7:";
+cin>>number_7;
+cout<<"Enter number 8:";
+cin>>number_8;
+cout<<"Enter number 9:";
+cin>>number_9;
+cout<<"Enter number 10:";
+cin>>number_10;
+cout<<"Enter number 11:";
+cin>>number_11;
+cout<<"Enter number 12:";
+cin>>number_12;
+cout<<"Enter number 13:";
+cin>>number_13;
+cout<<"Enter number 14:";
+cin>>number_14;
+cout<<"Enter number 15:";
+cin>>number_15;
+add=number_1+number_2+number_3+number_4+number_5;
+cout<<"The addition is:"<<add;
+multiply=number_6*number_7*number_8*number_9*number_10;
+cout<<"The multiplication is:"<<multiply;
+subtract=number_11-number_12-number_13-number_14-number_15;
+cout<<"The subtraction is:"<<subtract;
+total=(add+multiply)-subtract;
+cout<<"The total is:"<<total;
+
+}
